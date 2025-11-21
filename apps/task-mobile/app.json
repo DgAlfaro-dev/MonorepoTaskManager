@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "TaskMobile",
+    "slug": "task-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/taskLogo.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#f88a71"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/taskLogo.png",
+        "backgroundColor": "#f88a71"
+      },
+      "package": "com.jordanp.taskmobile"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [],
+    "extra": {
+      "eas": {
+        "projectId": "25e4d9f9-e857-4f0b-b81a-d57476b8b92c"
+      }
+    }
+  }
+}
